@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kadti\\My project (1)\\My project (1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kadti\\My project (1)\\My project (1)\\assets\\character\\playerblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\playerblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kadti\\My project (1)\\My project (1)\\assets\\decor\\animals\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\decor\\animals\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kadti\\My project (1)\\My project (1)\\assets\\character\\playercounterattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\playercounterattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\kadti\\my project (1)\\my project (1)\\assets\\decor\\animals\\enemymonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\decor\\animals\\enemymonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\kadti\\my project (1)\\my project (1)\\assets\\decor\\animals\\enemyrangedmonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\decor\\animals\\enemyrangedmonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kadti\\My project (1)\\My project (1)\\assets\\decor\\animals\\monsterblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\decor\\animals\\monsterblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kadti\\My project (1)\\My project (1)\\assets\\character\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kadti\\My project (1)\\My project (1)\\assets\\character\\playermouvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\playermouvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerCounterAttack.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerCounterAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Character\\PlayerCounterAttack.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerCounterAttack.cs",
+              "RelativeToolTip": "Assets\\Character\\PlayerCounterAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T02:59:59.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Decor\\Animals\\EnemyBullet.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\Decor\\Animals\\EnemyBullet.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T03:51:50.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerBlood.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerBlood.cs",
+              "RelativeDocumentMoniker": "Assets\\Character\\PlayerBlood.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerBlood.cs",
+              "RelativeToolTip": "Assets\\Character\\PlayerBlood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T02:16:23.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Character\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Character\\PlayerInventory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T00:48:11.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerMouvement.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerMouvement.cs",
+              "RelativeDocumentMoniker": "Assets\\Character\\PlayerMouvement.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Character\\PlayerMouvement.cs",
+              "RelativeToolTip": "Assets\\Character\\PlayerMouvement.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA6wDAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T00:47:37.812Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "cc8938bf-0412-4110-ac2b-a51a9b063164",
+        "Display": 0,
+        "X": 627,
+        "Y": 96,
+        "Width": 938,
+        "Height": 525,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonsterBlood.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\MonsterBlood.cs",
+              "RelativeDocumentMoniker": "Assets\\Decor\\Animals\\MonsterBlood.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\MonsterBlood.cs",
+              "RelativeToolTip": "Assets\\Decor\\Animals\\MonsterBlood.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T02:24:10.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyMonster.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\EnemyMonster.cs",
+              "RelativeDocumentMoniker": "Assets\\Decor\\Animals\\EnemyMonster.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\EnemyMonster.cs",
+              "RelativeToolTip": "Assets\\Decor\\Animals\\EnemyMonster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T00:49:10.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "4e0dcc8d-7aab-4d80-b9ad-3bcd4b66061e",
+        "Display": 0,
+        "X": 840,
+        "Y": 120,
+        "Width": 1256,
+        "Height": 525,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyRangedMonster.cs",
+              "DocumentMoniker": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\EnemyRangedMonster.cs",
+              "RelativeDocumentMoniker": "Assets\\Decor\\Animals\\EnemyRangedMonster.cs",
+              "ToolTip": "C:\\Users\\kadti\\My project (1)\\My project (1)\\Assets\\Decor\\Animals\\EnemyRangedMonster.cs",
+              "RelativeToolTip": "Assets\\Decor\\Animals\\EnemyRangedMonster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:10:46.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
