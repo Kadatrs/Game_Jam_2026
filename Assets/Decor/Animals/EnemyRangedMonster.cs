@@ -29,17 +29,6 @@ public class EnemyRangedMonster : MonoBehaviour
     }
 
 
-    //void Update()
-    //{
-    //    if (player == null) return;
-
-    //    float distance = Vector2.Distance(transform.position, player.position);
-
-    //    if (distance <= detectionRange)
-    //    {
-    //        TryShoot();
-    //    }
-    //}
 
     void Update()
     {

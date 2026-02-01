@@ -26,19 +26,6 @@ public class EnemyMonster : MonoBehaviour{
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    //void FixedUpdate()
-    //{
-    //    if (player == null) return;
-
-    //    float distance = Vector2.Distance(rb.position, player.position);
-
-    //    if (distance <= detectionRange)
-    //    {
-    //        Vector2 dir = (player.position - transform.position).normalized;
-    //        rb.MovePosition(rb.position + dir * moveSpeed * Time.fixedDeltaTime);
-    //    }
-    //}
-
     void FixedUpdate()
     {
         if (player == null) return;

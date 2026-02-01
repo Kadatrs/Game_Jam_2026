@@ -35,7 +35,7 @@ public class PlayerShield : MonoBehaviour
             Vector2 pushDir =
                 (monsterBlood.transform.position - transform.position).normalized;
 
-            // 🔑 THIS IS THE IMPORTANT PART
+            // THIS IS THE IMPORTANT PART
             //enemyRb.velocity = Vector2.zero;
             //enemyRb.AddForce(pushDir * pushForce, ForceMode2D.Impulse);
 
