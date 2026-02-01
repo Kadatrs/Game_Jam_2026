@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyMonster : MonoBehaviour
-{
+public class EnemyMonster : MonoBehaviour{
     public float moveSpeed = 2f;
     public float detectionRange = 3f;
     public int damage = 10;

@@ -1,53 +1,65 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class PlayerShield : MonoBehaviour
 {
     public float shieldRadius = 2f;
-    public float pushForce = 5f;
-    public float shieldDuration = 1f;
+    public float pushForce = 8f;
+    public float cooldown = 1f;
 
-    private bool shieldActive = false;
-    private float lastShieldTime;
+    private bool canUse = true;
 
-    void Update()
+    public void TryActivateShield()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !shieldActive)
-        {
-            StartCoroutine(ActivateShield());
-        }
+        if (!canUse) return;
+        StartCoroutine(ShieldPulse());
     }
 
-    IEnumerator ActivateShield()
+    IEnumerator ShieldPulse()
     {
-        shieldActive = true;
-        lastShieldTime = Time.time;
+        canUse = false;
 
-        float endTime = Time.time + shieldDuration;
+        Collider2D[] hits =
+            Physics2D.OverlapCircleAll(transform.position, shieldRadius);
 
-        while (Time.time < endTime)
+        foreach (Collider2D hit in hits)
         {
-            Collider2D[] hits = Physics2D.OverlapCircleAll(
-                transform.position, shieldRadius);
+            MonsterBlood monsterBlood =
+                hit.GetComponentInParent<MonsterBlood>();
 
-            foreach (Collider2D hit in hits)
+            if (!hit.CompareTag("Enemy")|| (monsterBlood == null)) continue;
+
+            Rigidbody2D enemyRb = hit.GetComponent<Rigidbody2D>();
+            if (enemyRb == null) continue;
+
+            Vector2 pushDir =
+                (monsterBlood.transform.position - transform.position).normalized;
+
+            // 🔑 THIS IS THE IMPORTANT PART
+            //enemyRb.velocity = Vector2.zero;
+            //enemyRb.AddForce(pushDir * pushForce, ForceMode2D.Impulse);
+
+            // Melee enemy
+            EnemyMonster enemy =
+                monsterBlood.GetComponent<EnemyMonster>();
+            if (enemy != null)
             {
-                if (hit.CompareTag("Enemy"))
-                {
-                    Rigidbody2D enemyRb = hit.GetComponent<Rigidbody2D>();
-                    if (enemyRb != null)
-                    {
-                        Vector2 pushDir =
-                            (hit.transform.position - transform.position).normalized;
-                        enemyRb.AddForce(pushDir * pushForce, ForceMode2D.Impulse);
-                    }
-                }
+                enemy.ApplyKnockback(pushDir);
             }
 
-            yield return null;
+            // Ranged enemy
+            EnemyRangedMonster rangedEnemy =
+                monsterBlood.GetComponent<EnemyRangedMonster>();
+            if (rangedEnemy != null)
+            {
+                rangedEnemy.ApplyKnockback(pushDir);
+            }
+            yield return new WaitForSeconds(cooldown);
+            canUse = true;
         }
 
-        shieldActive = false;
+        yield return new WaitForSeconds(cooldown);
+        canUse = true;
     }
 
     void OnDrawGizmosSelected()
